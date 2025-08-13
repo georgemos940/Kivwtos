@@ -1,0 +1,37 @@
+site_name: Kivwtos
+site_description: Προσωπικό vault για γρήγορες σημειώσεις, snippets και ιδέες.
+site_url: https://georgemos940.github.io/kivwtos
+repo_url: https://github.com/georgemos940.kivwtos
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+nav:
+  - Αρχική: index.md
+  - Quick Notes: quick-notes.md
+  - Snippets:
+      - Docker: snippets/docker.md
+  - Ideas:
+      - Backlog: ideas/backlog.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+docs_dir: docs
