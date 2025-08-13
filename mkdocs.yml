@@ -1,37 +1,87 @@
-site_name: Kivwtos
-site_description: Προσωπικό vault για γρήγορες σημειώσεις, snippets και ιδέες.
-site_url: https://georgemos940.github.io/kivwtos
-repo_url: https://github.com/georgemos940/Kivwtos.git
+site_name: Kivotos 
+site_description: Personal vault for notes, snippets, and ideas.
+site_url: https://georgemos940.github.io/Kivwtos
+repo_url: https://github.com/georgemos940/Kivwtos
+repo_name: georgemos940/Kivwtos
+edit_uri: edit/master/docs/ # for future contribution help
 
 theme:
   name: material
+  language: el
+  logo: assets/logo.png
+  favicon: assets/favicon.jpg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-6
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
+    - navigation.expand     
     - navigation.top
+    - navigation.footer
+    - toc.integrate
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
     - search.suggest
     - search.highlight
-    - toc.integrate
+    - header.autohide
 
 nav:
   - Αρχική: index.md
-  - Quick Notes: quick-notes.md
+  - Σημειώσεις:
+      - "📌 Γρήγορα": quick-notes.md
+      - "📥 Inbox": inbox.md
   - Snippets:
-      - Docker: snippets/docker.md
-  - Ideas:
-      - Backlog: ideas/backlog.md
+      - "🧰 Επισκόπηση": snippets/index.md
+      - "🐳 Docker": snippets/docker.md
+      - "🐧 Linux": snippets/linux.md
+      - "🔧 Git": snippets/git.md
+  - Ιδέες:
+      - "🧠 Επισκόπηση": ideas/index.md
+      - "📜 Backlog": ideas/backlog.md
+      - "🌱 Someday": ideas/someday.md
+  - "ℹ️ Σχετικά": about.md
 
 plugins:
   - search
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - footnotes
+  - tables
   - toc:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
 
 docs_dir: docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/georgemos940
+      name: GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/pegasusac
+      name: Discord
+  generator: false
