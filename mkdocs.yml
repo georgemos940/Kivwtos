@@ -1,7 +1,7 @@
 site_name: Kivwtos
 site_description: Προσωπικό vault για γρήγορες σημειώσεις, snippets και ιδέες.
 site_url: https://georgemos940.github.io/kivwtos
-repo_url: https://github.com/georgemos940.Kivwtos
+repo_url: https://github.com/georgemos940.kivwtos
 
 theme:
   name: material
