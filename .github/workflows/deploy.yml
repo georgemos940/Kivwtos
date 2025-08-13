@@ -1,15 +1,15 @@
-name: Deploy Kivwtos (MkDocs)
+name: Deploy Kivotos (MkDocs)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master ]  
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,4 +17,4 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force --message "Deploy: ${{ github.sha }}"
+      - run: mkdocs gh-deploy --force --verbose
