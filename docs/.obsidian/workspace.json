@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "theory/read1.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "read1"
+              "title": "index"
             }
           }
         ],
@@ -185,12 +185,14 @@
   },
   "active": "782d498de6700e92",
   "lastOpenFiles": [
+    "theory/read1.md",
+    "tech briefs/read1.md",
+    "tech briefs",
     "index.md",
     "assets/img3.png",
     "assets/img2.png",
     "assets/img1.png",
     "Theory/read1.md",
-    "theory/read1.md",
     "theory",
     "assets/Pasted image 20250814094019.png",
     "assets/Pasted image 20250814094150.png",
