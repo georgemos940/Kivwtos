@@ -41,7 +41,7 @@ theme:
 nav:
   - Αρχική: index.md
   - Tech Briefs:
-      - "Differences between Hashing Encoding and Encryption": theory/read1.md
+      - "Differences between Hashing Encoding and Encryption": /docs/theory/read1.md
       - "🧰 Επισκόπηση": snippets/index.md
   - Snippets:
       - "🧰 Επισκόπηση": snippets/index.md
