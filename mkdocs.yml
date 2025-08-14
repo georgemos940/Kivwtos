@@ -43,9 +43,9 @@ nav:
   - Tech Briefs:
       - "Differences between Hashing Encoding and Encryption": tech briefs/read1.md
   - Snippets:
-  - Ideas:
-  - Usefull Links:
-  - AboutMe:
+  - Ideas: index.md
+  - Usefull Links: index.md
+  - AboutMe: index.md
 
 plugins:
   - search
