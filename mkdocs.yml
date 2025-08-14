@@ -40,8 +40,8 @@ theme:
 
 nav:
   - Αρχική: index.md
-  - Σημειώσεις:
-      - "📌 Γρήγορα": quick-notes.md
+  - Theory:
+      - "📌 Γρήγορα": Differences between Hashing Encoding Encryption.md
       - "📥 Inbox": inbox.md
   - Snippets:
       - "🧰 Επισκόπηση": snippets/index.md
