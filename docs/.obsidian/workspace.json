@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Differences between Hashing Encoding Encryption.md",
+                "file": "Theory/Differences-Hashing-Encoding-Encryption.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differences between Hashing Encoding Encryption"
+              "title": "Differences-Hashing-Encoding-Encryption"
             }
           }
         ],
@@ -200,7 +200,7 @@
   "active": "6254b5b63b94e7c4",
   "lastOpenFiles": [
     "Theory/Pasted image 20250814094019.png",
-    "Theory/Differences between Hashing Encoding Encryption.md",
+    "Theory/Differences-Hashing-Encoding-Encryption.md",
     "Theory/Pasted image 20250814094150.png",
     "Theory/Pasted image 20250814094124.png",
     "index.md",
