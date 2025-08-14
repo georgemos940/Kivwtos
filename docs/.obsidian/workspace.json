@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "theory/read1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "read1"
             }
           }
         ],
@@ -185,6 +185,7 @@
   },
   "active": "782d498de6700e92",
   "lastOpenFiles": [
+    "index.md",
     "assets/img3.png",
     "assets/img2.png",
     "assets/img1.png",
@@ -197,7 +198,6 @@
     "Theory/Pasted image 20250814094019.png",
     "Theory/Pasted image 20250814094124.png",
     "Theory/Pasted image 20250814094150.png",
-    "index.md",
     "Theory",
     "niaou.md"
   ]
