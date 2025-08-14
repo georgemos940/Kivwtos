@@ -48,6 +48,18 @@
               "icon": "lucide-file",
               "title": "read1"
             }
+          },
+          {
+            "id": "35e4ae2de753462d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20250814094019.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250814094019"
+            }
           }
         ],
         "currentTab": 2
@@ -199,10 +211,13 @@
   },
   "active": "6254b5b63b94e7c4",
   "lastOpenFiles": [
+    "assets/Pasted image 20250814094019.png",
+    "Theory/read1.md",
+    "assets/Pasted image 20250814094150.png",
+    "assets/Pasted image 20250814094124.png",
     "Theory/Pasted image 20250814094019.png",
     "Theory/Pasted image 20250814094124.png",
     "Theory/Pasted image 20250814094150.png",
-    "Theory/read1.md",
     "index.md",
     "Theory",
     "niaou.md"

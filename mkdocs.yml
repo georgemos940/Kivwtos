@@ -41,7 +41,7 @@ theme:
 nav:
   - Αρχική: index.md
   - Theory:
-      - "Differences between Hashing Encoding and Encryption": read1.md
+      - "Differences between Hashing Encoding and Encryption": Theory/read1.md
       - "📥 Inbox": inbox.md
   - Snippets:
       - "🧰 Επισκόπηση": snippets/index.md
