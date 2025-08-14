@@ -39,20 +39,13 @@ theme:
     - header.autohide
 
 nav:
-  - Αρχική: index.md
+  - Homepage: index.md
   - Tech Briefs:
       - "Differences between Hashing Encoding and Encryption": tech briefs/read1.md
-      - "🧰 Επισκόπηση": snippets/index.md
   - Snippets:
-      - "🧰 Επισκόπηση": snippets/index.md
-      - "🐳 Docker": snippets/docker.md
-      - "🐧 Linux": snippets/linux.md
-      - "🔧 Git": snippets/git.md
-  - Ιδέες:
-      - "🧠 Επισκόπηση": ideas/index.md
-      - "📜 Backlog": ideas/backlog.md
-      - "🌱 Someday": ideas/someday.md
-  - "ℹ️ Σχετικά": about.md
+  - Ideas:
+  - Usefull Links:
+  - AboutMe:
 
 plugins:
   - search
