@@ -1,4 +1,4 @@
-name: Deploy Kivotos (MkDocs)
+name: Deploy Kivwtos (MkDocs)
 
 on:
   push:
