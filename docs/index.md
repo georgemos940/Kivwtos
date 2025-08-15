@@ -1,7 +1,5 @@
 ## Hey there! 👋 Wishing you a great day!
-<div id="header" align="center">
-    <img src="https://i.postimg.cc/nLbC5558/typing-cat.gif" width="200"/>
-  </div>
+![Hashing Example](./assets/favicon.jpg)
 
 
 <p align="center" style="font-size: 1.1rem; color: #9f9f9f; max-width: 900px; margin: 0 auto; line-height: 1.6;">
