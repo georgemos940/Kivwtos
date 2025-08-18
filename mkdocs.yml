@@ -4,7 +4,7 @@ site_url: https://georgemos940.github.io/Kivwtos
 site_author: George M.
 repo_url: https://github.com/georgemos940/Kivwtos
 repo_name: georgemos940/Kivwtos
-edit_uri: edit/master/docs/  # for future contribution help
+edit_uri: edit/master/docs/  
 
 theme:
   name: material
@@ -13,7 +13,7 @@ theme:
   favicon: assets/favicon.jpg
   icon:
     repo: fontawesome/brands/github
-  custom_dir: overrides            # enable template overrides (see note below)
+  custom_dir: overrides           
   palette:
     # Dark mode by default (slate first)
     - scheme: slate
@@ -61,7 +61,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      type: iso_date            # -> 2025-08-18
+      type: iso_date          
       timezone: Europe/Athens
       fallback_to_build_date: true
 
