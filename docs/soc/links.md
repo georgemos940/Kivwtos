@@ -83,39 +83,39 @@
 
 ## Malware Analysis
 
-| Name            | Description                               | Link                                      |
-| --------------- | ----------------------------------------- | ----------------------------------------- |
-| VirusTotal      | Multi-engine file and URL scanning        | [Visit](https://www.virustotal.com/)      |
-| Hybrid Analysis | Static and dynamic malware analysis       | [Visit](https://www.hybrid-analysis.com/) |
-| Intezer Analyze | Code genome malware analysis              | [Visit](https://analyze.intezer.com/)     |
-| Any.Run         | Interactive malware sandbox               | [Visit](https://any.run/)                 |
-| file.net        | Containes all windows applications        | [Visit](https://www.file.net/process)     |
+| Name            | Description                         | Link                                      |
+| --------------- | ----------------------------------- | ----------------------------------------- |
+| VirusTotal      | Multi-engine file and URL scanning  | [Visit](https://www.virustotal.com/)      |
+| Hybrid Analysis | Static and dynamic malware analysis | [Visit](https://www.hybrid-analysis.com/) |
+| Intezer Analyze | Code genome malware analysis        | [Visit](https://analyze.intezer.com/)     |
+| Any.Run         | Interactive malware sandbox         | [Visit](https://any.run/)                 |
+| file.net        | Containes all windows applications  | [Visit](https://www.file.net/process)     |
 
 
 ## All-in-One Decode/Hash/Stego Tools
-| Name                        | Description                                                      | Link                                                |
-| --------------------------- | ---------------------------------------------------------------- | --------------------------------------------------- |
-| CyberChef                   | [All-in-one] Encode/Decode, crypto, parsing, forensics           | https://gchq.github.io/CyberChef/                   |
-| Decoder.link                | [All-in-one] Base64/Hex/URL, XOR, RC4; tabs for X.509 & JWT      | https://decoder.link/                               |
-| dcode.fr                    | [All-in-one] Large collection of ciphers/decoders (CTF-friendly) | https://www.dcode.fr/                               |
-| Base64.guru                 | [Encoding] Base64 encode/decode & guides                         | https://base64.guru/                                |
-| Base64Decode.org            | [Encoding] Simple Base64 encoder/decoder                         | https://www.base64decode.org/                       |
-| URLDecoder.org              | [Encoding] URL encode/decode                                     | https://urldecoder.org/                             |
-| FreeFormatter HTML Entities | [Encoding] HTML entities encode/decode                           | https://www.freeformatter.com/html-escape.html      |
-| Online Unicode Tools        | [Encoding] UTF-8/Unicode ↔ text conversions                      | https://onlineunicodetools.com/                     |
-| JWT.io                      | [Tokens] Decode/inspect JSON Web Tokens                          | https://jwt.io/                                     |
-| SSL Certificate Decoder     | [Certificates] Decode X.509/CSR/PEM                              | https://www.sslshopper.com/certificate-decoder.html |
-| Lapo ASN.1 Decoder          | [Certificates] Parse/inspect ASN.1 DER/BER                       | https://lapo.it/asn1js/                             |
-| CrackStation                | [Hash] Lookup/decrypt hashes using large DB/wordlists            | https://crackstation.net/                           |
-| Hashes.com                  | [Hash] Hash identifier & decrypt database                        | https://hashes.com/en/decrypt/hash                  |
-| MD5Decrypt                  | [Hash] Decrypt MD5/SHA/NTLM via database                         | https://md5decrypt.net/en/                          |
-| TunnelsUp Hash Analyzer     | [Hash] Identify hash type by pattern                             | https://www.tunnelsup.com/hash-analyzer/            |
-| HashToolKit                 | [Hash] Identify & "decrypt" common hashes                        | https://hashtoolkit.com/                            |
-| ZXing QR Decoder            | [Stego] Decode QR from image/URL                                 | https://zxing.org/w/decode.jspx                     |
-| Exif.tools                  | [Forensics] View/extract EXIF metadata                           | https://exif.tools/                                 |
-| Aperisolve                  | [Stego] Auto image analysis (layers/strings/exif/stego)          | https://www.aperisolve.com/                         |
-| StegOnline                  | [Stego] LSB & common stego operations in browser                 | https://stegonline.georgeom.net/                    |
-| Hexed.it                    | [Forensics] Online hex editor/inspector                          | https://hexed.it/                                   |
+| Name                        | Description                                         | Link                                                         |
+| --------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| CyberChef                   | Encode/Decode, crypto, parsing, forensics           | [Visit](https://gchq.github.io/CyberChef/)                   |
+| Decoder.link                | Base64/Hex/URL, XOR, RC4; tabs for X.509 & JWT      | [Visit](https://decoder.link/)                               |
+| dcode.fr                    | Large collection of ciphers/decoders (CTF-friendly) | [Visit](https://www.dcode.fr/)                               |
+| Base64.guru                 | Base64 encode/decode & guides                       | [Visit](https://base64.guru/)                                |
+| Base64Decode.org            | Simple Base64 encoder/decoder                       | [Visit](https://www.base64decode.org/)                       |
+| URLDecoder.org              | URL encode/decode                                   | [Visit](https://urldecoder.org/)                             |
+| FreeFormatter HTML Entities | HTML entities encode/decode                         | [Visit](https://www.freeformatter.com/html-escape.html)      |
+| Online Unicode Tools        | UTF-8/Unicode ↔ text conversions                    | [Visit](https://onlineunicodetools.com/)                     |
+| JWT.io                      | Decode/inspect JSON Web Tokens                      | [Visit](https://jwt.io/)                                     |
+| SSL Certificate Decoder     | Decode X.509/CSR/PEM                                | [Visit](https://www.sslshopper.com/certificate-decoder.html) |
+| Lapo ASN.1 Decoder          | Parse/inspect ASN.1 DER/BER                         | [Visit](https://lapo.it/asn1js/)                             |
+| CrackStation                | Lookup/decrypt hashes using large DB/wordlists      | [Visit](https://crackstation.net/)                           |
+| Hashes.com                  | Hash identifier & decrypt database                  | [Visit](https://hashes.com/en/decrypt/hash)                  |
+| MD5Decrypt                  | Decrypt MD5/SHA/NTLM via database                   | [Visit](https://md5decrypt.net/en/)                          |
+| TunnelsUp Hash Analyzer     | Identify hash type by pattern                       | [Visit](https://www.tunnelsup.com/hash-analyzer/)            |
+| HashToolKit                 | Identify & "decrypt" common hashes                  | [Visit](https://hashtoolkit.com/)                            |
+| ZXing QR Decoder            | Decode QR from image/URL                            | [Visit](https://zxing.org/w/decode.jspx)                     |
+| Exif.tools                  | View/extract EXIF metadata                          | [Visit](https://exif.tools/)                                 |
+| Aperisolve                  | Auto image analysis (layers/strings/exif/stego)     | [Visit](https://www.aperisolve.com/)                         |
+| StegOnline                  | LSB & common stego operations in browser            | [Visit](https://stegonline.georgeom.net/)                    |
+| Hexed.it                    | Online hex editor/inspector                         | [Visit](https://hexed.it/)                                   |
 
 
 ---
