@@ -1,11 +1,15 @@
-## Hey there! 👋 Wishing you a great day!
-![Hashing Example](./assets/favicon.jpg)
-
-
-<p align="center" style="font-size: 1.1rem; color: #9f9f9f; max-width: 900px; margin: 0 auto; line-height: 1.6;">
-  Welcome to my personal <strong>tech vault</strong> - a centralized hub where I store and organize everything I need to work, learn, and create efficiently. 
-  Here you’ll find the tools, code snippets, documentation, research notes, and resources that I use on a daily basis to build, troubleshoot, and explore new ideas. 
-  This isn’t just a static collection, but a living repository that grows and adapts as I discover new technologies, refine my workflows, and push my skills further. 
-  Whether it’s programming, cybersecurity, system administration, or creative projects, this vault serves as my go-to reference point and a reflection of my journey in the tech world.
+<p align="center" style="margin: 1.25rem 0 0;">
+  <img src="assets/logo.png" alt="Profile" style="width:84px;height:84px;border-radius:50%;object-fit:cover;border:1px solid rgba(255,255,255,.12);box-shadow:0 6px 18px rgba(0,0,0,.25);" />
 </p>
 
+<h2 style="text-align:center;margin:.5rem 0 .25rem 0;font-weight:700;">
+  Hey there! 👋 Wishing you a great day!
+</h2>
+
+<hr style="width:72px;border:none;border-top:1px solid var(--md-accent-fg-color);opacity:.6;margin:.5rem auto 1rem;" />
+
+<p align="center" style="font-size:.95rem;color:var(--md-default-fg-color--light);max-width:820px;margin:0 auto 1.2rem;line-height:1.65;">
+  Welcome to my personal <strong>tech vault</strong> — a living hub where I keep the tools, snippets, docs, and notes I use to build, troubleshoot, and explore.
+  It grows as I discover new technologies, refine workflows, and push my skills. From programming and security to systems and creative work,
+  this space stays <em>fast, organized, and useful</em>.
+</p>

@@ -4,7 +4,7 @@
 
 ---
 
-## IP Checker
+# IP Checker
 
 | Name            | Description                               | Link                                                                                      |
 | --------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@
 
 ---
 
-## URL Checker
+# URL Checker
 
 | Name                 | Description                                    | Link                                      |
 | -------------------- | ---------------------------------------------- | ----------------------------------------- |
@@ -32,7 +32,7 @@
 
 ---
 
-## Domain Checker
+# Domain Checker
 
 | Name         | Description                               | Link                                                         |
 | ------------ | ----------------------------------------- | ------------------------------------------------------------ |
@@ -44,7 +44,7 @@
 
 ---
 
-## MAC Address Checker
+# MAC Address Checker
 
 | Name                    | Description                             | Link                                                               |
 | ----------------------- | --------------------------------------- | ------------------------------------------------------------------ |
@@ -53,7 +53,7 @@
 | DNSChecker MAC Lookup   | MAC address search with vendor info     | [Visit](https://dnschecker.org/mac-lookup.php)                     |
 | Miniweb Tool MAC Lookup | Quick MAC vendor lookup                 | [Visit](https://miniwebtool.com/mac-address-lookup/)               |
 
-## Website Scanner
+# Website Scanner
 
 | Name                | Description                                           | Link                                      |
 | ------------------- | ----------------------------------------------------- | ----------------------------------------- |
@@ -69,7 +69,7 @@
 
 ---
 
-## Number Reputation Checker
+# Number Reputation Checker
 
 | Name                 | Description                                | Link                                       |
 | -------------------- | ------------------------------------------ | ------------------------------------------ |
@@ -81,7 +81,7 @@
 
 ---
 
-## Malware Analysis
+# Malware Analysis
 
 | Name            | Description                         | Link                                      |
 | --------------- | ----------------------------------- | ----------------------------------------- |
@@ -92,7 +92,7 @@
 | file.net        | Containes all windows applications  | [Visit](https://www.file.net/process)     |
 
 
-## All-in-One Decode/Hash/Stego Tools
+# All-in-One Decode/Hash/Stego Tools
 | Name                        | Description                                         | Link                                                         |
 | --------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
 | CyberChef                   | Encode/Decode, crypto, parsing, forensics           | [Visit](https://gchq.github.io/CyberChef/)                   |

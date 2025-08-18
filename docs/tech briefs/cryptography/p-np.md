@@ -1,5 +1,5 @@
 
-## The P = NP Problem: A Fundamental Question in Computer Science  
+# The P = NP Problem: A Fundamental Question in Computer Science  
 
 ![Hashing Example](../../assets/img8.png)
 
@@ -14,7 +14,7 @@ In other words, can every problem whose solution can be checked quickly also be 
 
 ---
 
-### Why It Matters  
+# Why It Matters  
 
 If **P = NP**, then a huge number of problems considered difficult today could be solved efficiently. This would revolutionize many areas such as:  
 
@@ -26,7 +26,7 @@ But the most critical impact would be in **cryptography**.
 
 ---
 
-### P vs NP and Cryptography  
+# P vs NP and Cryptography  
 
 Modern cryptography is built on the assumption that some problems are *computationally hard*. For example:  
 
@@ -46,7 +46,7 @@ In short, if **P = NP**, most of today’s digital security would no longer exis
 
 ---
 
-### If P ≠ NP  
+# If P ≠ NP  
 
 If instead **P ≠ NP**, then it is confirmed that there are problems which cannot be solved efficiently. That means cryptography, hashing, and secure communications are built on strong foundations:  
 
@@ -58,7 +58,7 @@ This is why the P vs NP problem is not only a theoretical question but also a ve
 
 ---
 
-### The Open Problem  
+# The Open Problem  
 
 Despite decades of effort, no one has been able to prove whether P equals NP or not. The problem is so central to mathematics and computer science that the **Clay Mathematics Institute** has named it one of the **Millennium Prize Problems**, offering **1 million dollars** for a correct solution [4].  
 
@@ -66,7 +66,7 @@ Whether the answer is “yes” or “no,” solving this problem will completel
 
 ---
 
-### References  
+# References  
 
 [1] M. Sipser, *Introduction to the Theory of Computation*, 3rd ed., Cengage Learning, 2012.  
 [2] J. Katz and Y. Lindell, *Introduction to Modern Cryptography*, 2nd ed., CRC Press, 2014.  
