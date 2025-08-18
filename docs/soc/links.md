@@ -22,7 +22,9 @@
 | Name                 | Description                                    | Link                                      |
 | -------------------- | ---------------------------------------------- | ----------------------------------------- |
 | VirusTotal           | Multi-engine URL scanning                      | [Visit](https://www.virustotal.com/)      |
-| Urlscan.io           | Website scanning and screenshot                | [Visit](https://urlscan.io/)              |
+| UrlHaus              | URL scanning database                          | [Visit](https://urlhaus.abuse.ch/browse)      |
+| Browserling          | Online report url database                     | [Visit](https://m.urlquery.net)     |
+| urlquery.net         | Website scanning and screenshot                | [Visit](https://urlscan.io/)              |
 | Google Safe Browsing | URL safety and phishing check                  | [Visit](https://transparencyreport.google.com/safe-browsing/search) |
 | PhishTank            | Community-driven phishing URL database         | [Visit](https://phishtank.org/)           |
 | Sucuri SiteCheck     | Website malware and security scan               | [Visit](https://sitecheck.sucuri.net/)    |
@@ -35,6 +37,7 @@
 | Name         | Description                               | Link                                                         |
 | ------------ | ----------------------------------------- | ------------------------------------------------------------ |
 | Whois Lookup | Domain ownership and registration details | [Visit](https://whois.domaintools.com/)                      |
+| AlienVault   | Domain Checker Website & Others           | [Visit](https://otx.alienvault.com/)                      |
 | Cisco Talos  | Domain and IP reputation                  | [Visit](https://www.talosintelligence.com/reputation_center) |
 | MXToolbox    | Domain health, DNS, and blacklist checks  | [Visit](https://mxtoolbox.com/)                              |
 | DomainTools  | Advanced domain research and monitoring   | [Visit](https://www.domaintools.com/)                        |
