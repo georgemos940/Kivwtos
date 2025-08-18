@@ -65,6 +65,7 @@
 | UpGuard Web Scan    | Website risk assessment and security rating           | [Visit](https://www.upguard.com/webscan)  |
 | Observatory Mozilla | Security and best practices scanner for web services  | [Visit](https://observatory.mozilla.org/) |
 | Qualys SSL Labs     | SSL/TLS configuration testing                         | [Visit](https://www.ssllabs.com/ssltest/) |
+| Security Headers    | Check if the website has secure headers               | [Visit](https://securityheaders.com) |
 
 
 ---
