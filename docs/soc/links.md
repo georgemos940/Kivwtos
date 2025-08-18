@@ -96,9 +96,6 @@
 | Name                        | Description                                         | Link                                                         |
 | --------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
 | CyberChef                   | Encode/Decode, crypto, parsing, forensics           | [Visit](https://gchq.github.io/CyberChef/)                   |
-| Decoder.link                | Base64/Hex/URL, XOR, RC4; tabs for X.509 & JWT      | [Visit](https://decoder.link/)                               |
-| dcode.fr                    | Large collection of ciphers/decoders (CTF-friendly) | [Visit](https://www.dcode.fr/)                               |
-| Base64.guru                 | Base64 encode/decode & guides                       | [Visit](https://base64.guru/)                                |
 | Base64Decode.org            | Simple Base64 encoder/decoder                       | [Visit](https://www.base64decode.org/)                       |
 | URLDecoder.org              | URL encode/decode                                   | [Visit](https://urldecoder.org/)                             |
 | FreeFormatter HTML Entities | HTML entities encode/decode                         | [Visit](https://www.freeformatter.com/html-escape.html)      |
@@ -110,8 +107,7 @@
 | Hashes.com                  | Hash identifier & decrypt database                  | [Visit](https://hashes.com/en/decrypt/hash)                  |
 | MD5Decrypt                  | Decrypt MD5/SHA/NTLM via database                   | [Visit](https://md5decrypt.net/en/)                          |
 | TunnelsUp Hash Analyzer     | Identify hash type by pattern                       | [Visit](https://www.tunnelsup.com/hash-analyzer/)            |
-| HashToolKit                 | Identify & "decrypt" common hashes                  | [Visit](https://hashtoolkit.com/)                            |
-| ZXing QR Decoder            | Decode QR from image/URL                            | [Visit](https://zxing.org/w/decode.jspx)                     |
+| HashToolKit                 | Identify & "decrypt" common hashes                  | [Visit](https://hashtoolkit.com/)                            |                   |
 | Exif.tools                  | View/extract EXIF metadata                          | [Visit](https://exif.tools/)                                 |
 | Aperisolve                  | Auto image analysis (layers/strings/exif/stego)     | [Visit](https://www.aperisolve.com/)                         |
 | StegOnline                  | LSB & common stego operations in browser            | [Visit](https://stegonline.georgeom.net/)                    |
