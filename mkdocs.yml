@@ -44,6 +44,7 @@ nav:
   - Tech Briefs:
       - Cryptography:
           - "Differences between Hashing Encoding and Encryption": tech briefs/cryptography/diff-hash-encod-encry.md
+          - "The P=NP Problem": tech briefs/cryptography/p-np.md
   - SOC:
       - "Links": soc/links.md
       - "Templates": soc/templates.md

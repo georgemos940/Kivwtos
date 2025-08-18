@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/windows/windows-activation.md",
+                "file": "docs/tech briefs/cryptography/p-np.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows-activation"
+              "title": "p-np"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/windows/windows-activation.md",
+                "file": "docs/tech briefs/cryptography/p-np.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for windows-activation"
+              "title": "Backlinks for p-np"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/windows/windows-activation.md",
+                "file": "docs/tech briefs/cryptography/p-np.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from windows-activation"
+              "title": "Outgoing links from p-np"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/windows/windows-activation.md",
+                "file": "docs/tech briefs/cryptography/p-np.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of windows-activation"
+              "title": "Outline of p-np"
             }
           }
         ]
@@ -185,10 +185,18 @@
   },
   "active": "6c3023537de0662b",
   "lastOpenFiles": [
+    "docs/assets/img8.png",
     "docs/tech briefs/cryptography/diff-hash-encod-encry.md",
+    "docs/tech briefs/cryptography/P vs NP.md",
+    "docs/tech briefs/cryptography/p-np.md",
+    "docs/assets/img9.png",
+    "docs/assets/Pasted image 20250816154904.png",
+    "docs/assets/Pasted image 20250816154543.png",
+    "Pasted image 20250816154904.png",
+    "Pasted image 20250816154543.png",
+    "docs/windows/windows-activation.md",
     "docs/assets/img4.png",
     "docs/assets/img5.png",
-    "docs/windows/windows-activation.md",
     "docs/assets/img7.png",
     "docs/assets/img6.png",
     "docs/soc/links.md",
@@ -202,10 +210,6 @@
     "docs/assets/css",
     "docs/index.md",
     "docs/tech briefs/read1.md",
-    "docs/assets/img3.jpg",
-    "docs/assets/img.jpg",
-    "docs/assets/img3png.jpg",
-    "docs/assets/how-does-encryption-works.jpg",
     "docs/tech briefs/cryptography/read1",
     "docs/tech briefs/cryptography",
     "docs/tech briefs/crypto/read1",
