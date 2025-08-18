@@ -2,6 +2,8 @@
 
 Hi! I’m **George M.** ([@georgemos940](https://github.com/georgemos940)). I like building at the intersection of **security**, **web engineering**, and **clean, modular UI** - turning ideas into fast, reliable tools and docs.
 
+![Hashing Example](../../assets/img9.png)
+
 ## Focus Areas
 - **Security & Learning:** Blue-team notes, SOC references, hands-on labs (legal/educational scope).
 - **Web Engineering:** Modern React/Next.js apps with a premium dark/glassy aesthetic.
