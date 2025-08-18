@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "preview",
+                "file": "soc/links.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "links"
             }
           }
         ],
@@ -185,10 +185,10 @@
   },
   "active": "782d498de6700e92",
   "lastOpenFiles": [
+    "index.md",
     "theory/read1.md",
     "tech briefs/read1.md",
     "tech briefs",
-    "index.md",
     "assets/img3.png",
     "assets/img2.png",
     "assets/img1.png",

@@ -1,9 +1,10 @@
 site_name: Kivwtos
 site_description: Personal vault for notes, snippets, and ideas.
 site_url: https://georgemos940.github.io/Kivwtos
+site_author: George M.
 repo_url: https://github.com/georgemos940/Kivwtos
 repo_name: georgemos940/Kivwtos
-edit_uri: edit/master/docs/ # for future contribution help
+edit_uri: edit/master/docs/  # for future contribution help
 
 theme:
   name: material
@@ -12,8 +13,9 @@ theme:
   favicon: assets/favicon.jpg
   icon:
     repo: fontawesome/brands/github
+  custom_dir: overrides            # enable template overrides (see note below)
   palette:
-    # Dark mode by default (slate πρώτο)
+    # Dark mode by default (slate first)
     - scheme: slate
       primary: indigo
       accent: indigo
@@ -28,13 +30,15 @@ theme:
         name: Switch to dark mode
   features:
     - navigation.instant
-    # - navigation.expand   # αφήνουμε εκτός για να είναι κλειστά αρχικά
+    # - navigation.expand
     - navigation.top
     - navigation.footer
     - toc.integrate
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - content.action.edit        # "Edit this page"
+    - content.action.view        # "View source"
     - search.suggest
     - search.highlight
     - header.autohide
@@ -54,6 +58,12 @@ nav:
 
 plugins:
   - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: iso_date            # -> 2025-08-18
+      timezone: Europe/Athens
+      fallback_to_build_date: true
 
 markdown_extensions:
   - admonition
@@ -89,3 +99,4 @@ extra:
       link: https://discord.gg/pegasusac
       name: Discord
   generator: false
+  copyright: "© 2025 George M."

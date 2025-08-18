@@ -91,6 +91,31 @@
 | Any.Run         | Interactive malware sandbox               | [Visit](https://any.run/)                 |
 | file.net        | Containes all windows applications        | [Visit](https://www.file.net/process)     |
 
----
 
-*Last updated: 2025-08-15*
+## All-in-One Decode/Hash/Stego Tools
+| Name                        | Description                                                      | Link                                                |
+| --------------------------- | ---------------------------------------------------------------- | --------------------------------------------------- |
+| CyberChef                   | [All-in-one] Encode/Decode, crypto, parsing, forensics           | https://gchq.github.io/CyberChef/                   |
+| Decoder.link                | [All-in-one] Base64/Hex/URL, XOR, RC4; tabs for X.509 & JWT      | https://decoder.link/                               |
+| dcode.fr                    | [All-in-one] Large collection of ciphers/decoders (CTF-friendly) | https://www.dcode.fr/                               |
+| Base64.guru                 | [Encoding] Base64 encode/decode & guides                         | https://base64.guru/                                |
+| Base64Decode.org            | [Encoding] Simple Base64 encoder/decoder                         | https://www.base64decode.org/                       |
+| URLDecoder.org              | [Encoding] URL encode/decode                                     | https://urldecoder.org/                             |
+| FreeFormatter HTML Entities | [Encoding] HTML entities encode/decode                           | https://www.freeformatter.com/html-escape.html      |
+| Online Unicode Tools        | [Encoding] UTF-8/Unicode ↔ text conversions                      | https://onlineunicodetools.com/                     |
+| JWT.io                      | [Tokens] Decode/inspect JSON Web Tokens                          | https://jwt.io/                                     |
+| SSL Certificate Decoder     | [Certificates] Decode X.509/CSR/PEM                              | https://www.sslshopper.com/certificate-decoder.html |
+| Lapo ASN.1 Decoder          | [Certificates] Parse/inspect ASN.1 DER/BER                       | https://lapo.it/asn1js/                             |
+| CrackStation                | [Hash] Lookup/decrypt hashes using large DB/wordlists            | https://crackstation.net/                           |
+| Hashes.com                  | [Hash] Hash identifier & decrypt database                        | https://hashes.com/en/decrypt/hash                  |
+| MD5Decrypt                  | [Hash] Decrypt MD5/SHA/NTLM via database                         | https://md5decrypt.net/en/                          |
+| TunnelsUp Hash Analyzer     | [Hash] Identify hash type by pattern                             | https://www.tunnelsup.com/hash-analyzer/            |
+| HashToolKit                 | [Hash] Identify & "decrypt" common hashes                        | https://hashtoolkit.com/                            |
+| ZXing QR Decoder            | [Stego] Decode QR from image/URL                                 | https://zxing.org/w/decode.jspx                     |
+| Exif.tools                  | [Forensics] View/extract EXIF metadata                           | https://exif.tools/                                 |
+| Aperisolve                  | [Stego] Auto image analysis (layers/strings/exif/stego)          | https://www.aperisolve.com/                         |
+| StegOnline                  | [Stego] LSB & common stego operations in browser                 | https://stegonline.georgeom.net/                    |
+| Hexed.it                    | [Forensics] Online hex editor/inspector                          | https://hexed.it/                                   |
+
+
+---
