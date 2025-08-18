@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block footer %}
   {{ super() }}
-  {% if page.meta.git_revision_date_localized %}
+  {% if page and page.meta and page.meta.git_revision_date_localized %}
   <div class="md-footer-meta md-typeset" style="margin-top:.5rem">
     <div class="md-footer-meta__inner">
       <div class="md-footer-meta__item">
