@@ -89,6 +89,7 @@
 | Hybrid Analysis | Static and dynamic malware analysis       | [Visit](https://www.hybrid-analysis.com/) |
 | Intezer Analyze | Code genome malware analysis              | [Visit](https://analyze.intezer.com/)     |
 | Any.Run         | Interactive malware sandbox               | [Visit](https://any.run/)                 |
+| file.net        | Containes all windows applications        | [Visit](https://www.file.net/process)     |
 
 ---
 
