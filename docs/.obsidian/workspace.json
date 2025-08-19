@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soc/links.md",
+                "file": "tech briefs/website/sec_headers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "links"
+              "title": "sec_headers"
             }
           }
         ],
@@ -183,26 +183,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "782d498de6700e92",
+  "active": "337ae19244db90c4",
   "lastOpenFiles": [
-    "assets/aboutme.png",
-    "assets/535115109_1459221385501223_8630006852689075028_n.png",
-    "assets/logo.png",
-    "assets/532922753_1059356309516318_7554216203297070238_n.png",
+    "assets/img10.png",
+    "assets/image1-1024x533.png",
+    "tech briefs/website/sec_headers.md",
+    "image1-1024x533.png",
     "assets/img9.png",
-    "assets/pngwing.com.png",
+    "tech briefs/website",
+    "assets/logo.png",
+    "assets/img4.png",
+    "assets/aboutme.png",
     "aboutme.md",
+    "assets/favicon.jpg",
+    "assets/img8.png",
+    "assets/img7.png",
+    "assets/img6.png",
+    "tech briefs/cryptography/p-np.md",
+    "tech briefs/cryptography/diff-hash-encod-encry.md",
     "index.md",
+    "tech briefs/website/sec_header.md",
+    "windows/windows-activation.md",
     "theory/read1.md",
     "tech briefs/read1.md",
     "tech briefs",
-    "assets/img3.png",
-    "assets/img2.png",
-    "assets/img1.png",
     "Theory/read1.md",
     "theory",
-    "assets/Pasted image 20250814094019.png",
-    "assets/Pasted image 20250814094150.png",
     "Theory",
     "niaou.md"
   ]
