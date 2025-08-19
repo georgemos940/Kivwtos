@@ -57,6 +57,8 @@ nav:
       - "Templates": soc/templates.md
   - Windows:
       - "Activate Windows/Office": windows/windows-activation.md
+  - Games:
+      - "Cracked Games": games/cracked-games.md
   - AboutMe: aboutme.md
 
 plugins:

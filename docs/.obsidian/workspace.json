@@ -11,10 +11,14 @@
             "id": "16e67d67abd952de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "games/cracked-games.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "cracked-games"
             }
           }
         ]
@@ -166,6 +170,10 @@
   },
   "active": "16e67d67abd952de",
   "lastOpenFiles": [
+    "games/cracked-games.md",
+    "games/links.md",
+    "games",
+    "ganes",
     "windows/javascript-var-let-const.md",
     "tech briefs/website/javascript-var-let-const.md",
     "index.md",
