@@ -4,13 +4,6 @@
 > Replace the dummy data with actual incident details before sending to a customer.
 
 <hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
 
 # 📝 SOC Ticket Guidelines 
 
@@ -44,15 +37,6 @@ The activity was detected and reported by  ---------------------------
 
 
 
-
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
-<hr style="border-top: 3px double #bbb;">
 <hr style="border-top: 3px double #bbb;">
 
 # 📝 Incident Notification Template (Example)
