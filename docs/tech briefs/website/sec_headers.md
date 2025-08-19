@@ -29,7 +29,7 @@ By restricting the origin of executable scripts and styles, CSP prevents malicio
 The **HTTP Strict-Transport-Security (HSTS)** header enforces the use of encrypted HTTPS connections by instructing the browser to reject all future attempts to connect via the insecure HTTP protocol [5]. This prevents downgrade attacks, where an attacker might attempt to force the browser into communicating over HTTP, and mitigates risks such as cookie hijacking during transmission.
 
 Example configuration:  
-Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+```Strict-Transport-Security: max-age=63072000; includeSubDomains; preload```
 
 - **max-age=63072000** indicates that the browser must enforce HTTPS-only connections for two years.
 - **includeSubDomains** extends this protection to all subdomains, which is crucial since an attacker might otherwise target a weaker subdomain.
@@ -43,7 +43,7 @@ HSTS is a strong defense against protocol downgrade attacks and ensures persiste
 The **X-Content-Type-Options** header addresses a browser feature called MIME-type sniffing. When this feature is enabled, browsers may try to infer the type of a file based on its content rather than strictly respecting the declared `Content-Type` header. While this behavior may increase compatibility, it also introduces security risks. Attackers can disguise malicious files, such as JavaScript code, under misleading content types to bypass filters [7].
 
 Example configuration:  
-X-Content-Type-Options: nosniff
+```X-Content-Type-Options: nosniff```
 
 - **nosniff** disables MIME-type sniffing, forcing the browser to strictly enforce the MIME type declared by the server.
 
@@ -73,6 +73,7 @@ Organizations that consistently deploy and audit these headers demonstrate a com
 
 
 ---
+# References
 
 [1] OWASP Foundation, _OWASP Secure Headers Project_, OWASP, 2021.  
 [2] Ivan Ristić, _Bulletproof SSL and TLS_, Feisty Duck, 2014.  
