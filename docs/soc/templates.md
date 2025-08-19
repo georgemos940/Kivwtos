@@ -3,30 +3,62 @@
 > This page contains standard templates used for opening SOC tickets.  
 > Replace the dummy data with actual incident details before sending to a customer.
 
----
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
 
 # 📝 SOC Ticket Guidelines 
 
-```text
+On **--- ---, 2025, --:---:--PM** (UTC+03:00 — Athens) the host with:
 
-• Date/Time (UTC): 01 August 2025 — 14:32 UTC
-• Detected By: Host srv-dmz-001 via Endpoint Detection System
-• Detection Type: Suspicious outbound network connection
+* Source IP : **---.---.---.--** 
+* Destination IP: **--.---.---.---**
+* Windows Computer Name: ----------
+* Events Count: **-------------**
+* Firewall Action: **allowed** (**NOT** Blocked)
 
+---
+
+*[ Some References ]*
+
+[Reference1](https://example.com)
+[Reference2](https://example.com)
+[Reference3](https://example.com)
+[Reference4](https://example.com)
+
+---
+
+The activity was detected and reported by  ---------------------------
+
+*[Example Payload]*
+
+```
+-------------------------------------
 ```
 
 
+
+
+
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
+<hr style="border-top: 3px double #bbb;">
 
 # 📝 Incident Notification Template (Example)
 
-```text
-[Incident Ticket]
-
-Date/Time (UTC): 01 August 2025 — 14:32 UTC
-Detected By: Host srv-dmz-001 via Endpoint Detection System
-Detection Type: Suspicious outbound network connection
-
-Description:
-
-```
+- Please investigate whether the reported activity is legitimate or not.
+- in the case the aforementioned activity is legitimate, please define the process or the business role of the user performing it as well as the business role of the corresponding host.
+- In case the aforementioned activity is not deemed legitimate, please block the source IP **-----------------**  and perform a full scan of the host with the current endpoint security solution.
+- Please notify us regarding the results of your investigation
 

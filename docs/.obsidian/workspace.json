@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech briefs/website/sec_headers.md",
+                "file": "soc/templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sec_headers"
+              "title": "templates"
             }
           }
         ],
@@ -183,12 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "337ae19244db90c4",
+  "active": "782d498de6700e92",
   "lastOpenFiles": [
-    "assets/img10.png",
-    "assets/image1-1024x533.png",
     "tech briefs/website/sec_headers.md",
     "image1-1024x533.png",
+    "assets/img10.png",
+    "assets/image1-1024x533.png",
     "assets/img9.png",
     "tech briefs/website",
     "assets/logo.png",
@@ -198,7 +198,6 @@
     "assets/favicon.jpg",
     "assets/img8.png",
     "assets/img7.png",
-    "assets/img6.png",
     "tech briefs/cryptography/p-np.md",
     "tech briefs/cryptography/diff-hash-encod-encry.md",
     "index.md",
