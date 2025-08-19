@@ -12,7 +12,7 @@ On **--- ---, 2025, --:---:--PM** (UTC+03:00 — Athens) the host with:
 
 * Source IP : **---.---.---.--** 
 * Destination IP: **--.---.---.---**
-* Windows Computer Name: ----------
+* Windows Computer Name: **----------**
 * Events Count: **-------------**
 * Firewall Action: **allowed** (**NOT** Blocked)
 
