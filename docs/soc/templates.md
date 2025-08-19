@@ -7,7 +7,8 @@
 
 # 📝 SOC Ticket Guidelines 
 
-```
+
+````
 On **--- ---, 2025, --:---:--PM** (UTC+03:00 — Athens) the host with:
 
 * Source IP : **---.---.---.--** 
@@ -28,13 +29,8 @@ On **--- ---, 2025, --:---:--PM** (UTC+03:00 — Athens) the host with:
 - [Reference2](https://example.com)
 - [Reference3](https://example.com)
 - [Reference4](https://example.com)
-
-```
-
-
 ---
 
-````
 *[ Payload Example ]*
 ```
 blahblahblahblah  
