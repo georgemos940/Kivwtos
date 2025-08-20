@@ -114,5 +114,6 @@
 | StegOnline                  | LSB & common stego operations in browser            | [Visit](https://stegonline.georgeom.net/)                    |
 | Hexed.it                    | Online hex editor/inspector                         | [Visit](https://hexed.it/)                                   |
 | obf-io                      | Online Obfuscator/Deobfuscator  (Javascript)        | [Visit](https://obf-io.deobfuscate.io)                                   |
+| srihash.org                 | SRI Hash Generator                                  | [Visit](https://www.srihash.org)                                   |
 
 ---
