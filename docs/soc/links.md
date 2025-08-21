@@ -67,6 +67,7 @@
 | Qualys SSL Labs     | SSL/TLS configuration testing                         | [Visit](https://www.ssllabs.com/ssltest/) |
 | Security Headers    | Check if the website has secure headers               | [Visit](https://securityheaders.com) |
 
+---
 
 # Email Reputation Checker
 
