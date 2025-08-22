@@ -41,6 +41,8 @@
 | AlienVault   | Domain Checker Website & Others           | [Visit](https://otx.alienvault.com/)                      |
 | Cisco Talos  | Domain and IP reputation                  | [Visit](https://www.talosintelligence.com/reputation_center) |
 | MXToolbox    | Domain health, DNS, and blacklist checks  | [Visit](https://mxtoolbox.com/)                              |
+| ThreatFox    | You are browsing the Indicator Of Compromise (IOC) database of ThreatFox | [Visit](https://threatfox.abuse.ch/browse)                              |
+| SSL Blacklist    | Here you can browse all malicious SSL certificates  | [Visit](https://sslbl.abuse.ch/ssl-certificates)                              |
 | DomainTools  | Advanced domain research and monitoring   | [Visit](https://www.domaintools.com/)                        |
 
 ---
