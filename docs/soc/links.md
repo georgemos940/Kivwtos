@@ -11,6 +11,7 @@
 | Spur.us         | Threat analysis of IP addresses           | [Visit](https://spur.us/context/64.57.133.112)                                            |
 | AbuseIPDB       | IP reputation database                    | [Visit](https://www.abuseipdb.com)                                                        |
 | Cisco Talos     | IP and domain reputation lookup           | [Visit](https://www.talosintelligence.com/reputation_center/lookup?search=1111.111.111.1) |
+| FeodoTracker    | Browse Botnet C&Cs                        | [Visit](https://feodotracker.abuse.ch/browse) |
 | IPQualityScore  | IP reputation scoring                     | [Visit](https://www.ipqualityscore.com)                                                   |
 | RST Cloud       | IP/domain reputation lookup               | [Visit](https://www.rstcloud.com/ioc-lookup-results/?search=156.244.56.89)                |
 | VirusTotal      | IP checker with history and analysis      | [Visit](https://www.virustotal.com/gui/home/search)                                       |
@@ -97,6 +98,7 @@
 | Name            | Description                         | Link                                      |
 | --------------- | ----------------------------------- | ----------------------------------------- |
 | VirusTotal      | Multi-engine file and URL scanning  | [Visit](https://www.virustotal.com/)      |
+| Malware Bazaar  | Database with malware investigations| [Visit](https://bazaar.abuse.ch/browse/)      |
 | Hybrid Analysis | Static and dynamic malware analysis | [Visit](https://www.hybrid-analysis.com/) |
 | Intezer Analyze | Code genome malware analysis        | [Visit](https://analyze.intezer.com/)     |
 | Any.Run         | Interactive malware sandbox         | [Visit](https://any.run/)                 |
