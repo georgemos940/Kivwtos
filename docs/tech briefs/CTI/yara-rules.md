@@ -69,7 +69,7 @@ rule examplerule {
 # Run the Rule
 
 ```python
-	yara myfirstrule.yar somefile
+yara myfirstrule.yar somefile
 ```
 - If somefile exists:
 	Output -> ``example rule somefile``
