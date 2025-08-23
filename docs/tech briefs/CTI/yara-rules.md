@@ -264,6 +264,12 @@ Sometimes, though, you might come across an artifact or file that none of your e
 
 The best part? **LOKI already ships with a robust collection of YARA rules**, so you can start scanning endpoints for malicious indicators right away.
 
+command to run LOKI : 
+
+```python
+python ../../tools/Loki/loki.py -p .
+```
+
 (Showcasing you my LOKI Expierence with in the tryhackme walkthrough )
 
 ```
@@ -332,10 +338,56 @@ First command you should run after installing LOKI is **--update** this is impor
 *There is 3 results that the LOKI can output that is malicious/suspicious or clean file*
 
 ---
+
+## Creating YARA Rules with yarGen
+
+**yarGen** is a tool designed to automatically generate YARA rules based on strings extracted from malware samples. Its core principle is to identify unique strings in malicious files while filtering out those commonly found in legitimate software, reducing the risk of false positives.
+
+The tool includes extensive databases of goodware strings and opcodes, which are used to exclude non-malicious patterns during rule creation. When executed, yarGen analyzes the specified sample files, extracts candidate strings, removes common or goodware-associated strings, and outputs a YARA rule that can be used for threat detection.
+
+This approach is particularly useful during incident response when analysts need to quickly create reliable detection signatures for newly discovered malware. The generated YARA rules can then be applied across systems to identify additional infections and prevent further compromise.
+
+![Hashing Example](../../assets/img13.png)
+
+---
+
+## Valhalla – Online YARA Feed
+
+**Valhalla** [Link here](https://valhalla.nextron-systems.com) is an online YARA feed created and hosted by Nextron-Systems. It provides a large collection of high-quality, hand-crafted YARA rules aimed at improving detection capabilities. These rules are curated and maintained by experienced security professionals, ensuring accuracy and reducing false positives.
+
+Valhalla allows users to perform searches based on various parameters, including:
+- **Keyword**: Search for rules related to a specific term.
+- **Tag**: Identify rules associated with certain techniques or behaviors.
+- **ATT&CK Technique**: Correlate with the MITRE ATT&CK framework.
+- **SHA256**: Find rules associated with a specific file hash.
+- **Rule Name**: Look up a specific YARA rule by its name.
+
+Each rule entry typically includes:
+- **Rule Name**
+- **Brief Description**
+- **Reference Link** for additional information
+- **Creation or Update Date**
+
+Valhalla serves as an essential resource for incident response and threat hunting, allowing analysts to leverage pre-built detection signatures without manually writing complex YARA rules. By using Valhalla, security teams can quickly identify known threats, enhance detection mechanisms, and improve overall threat intelligence.
+
+![Hashing Example](../../assets/img14.png)
+
+
+
+
+---
+
+
 Btw here is the documentation of yara : [Yara Documentation](https://yara.readthedocs.io/en/latest)
 
 **John Hammond** has a great video on YARA! I recommend checking it out. Personally, I find videos more effective than just reading, I learn a lot more from them. But of course, it depends on the person.
 
 <div style="text-align:center;">
   <iframe width="1000" height="563" src="https://www.youtube.com/embed/fu71CljrxsU" title="Classify Malware with YARA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+---
+Video from Gerald Auger is also very good!
+<div style="text-align:center;">
+  <iframe width="1000" height="563" src="https://www.youtube.com/embed/BM23_H2GGMA" title="What are Yara Rules (and How Cybersecurity Analysts Use Them)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
