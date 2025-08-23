@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech briefs/CTI/yara-rules.md",
+                "file": "windows/free-spotify.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yara-rules"
+              "title": "free-spotify"
             }
           }
         ]
@@ -171,8 +171,13 @@
   },
   "active": "e0da21a3c3e87d8e",
   "lastOpenFiles": [
-    "assets/img14.png",
+    "windows/windows-activation.md",
+    "windows/free-spotify.md",
+    "assets/img17.png",
+    "assets/img16.png",
+    "assets/img15.png",
     "tech briefs/CTI/yara-rules.md",
+    "assets/img14.png",
     "assets/img13.png",
     "tech briefs/cryptography/p-np.md",
     "Pasted image 20250823144539.png",
@@ -193,13 +198,9 @@
     "tech briefs/website/sec_headers.md",
     "image1-1024x533.png",
     "assets/img10.png",
-    "assets/image1-1024x533.png",
-    "assets/img9.png",
     "tech briefs/website",
-    "assets/logo.png",
     "aboutme.md",
     "tech briefs/website/sec_header.md",
-    "windows/windows-activation.md",
     "theory/read1.md",
     "tech briefs/read1.md",
     "tech briefs",
