@@ -45,23 +45,23 @@ theme:
 
 nav:
   - Homepage: index.md
-  - Tech Briefs:
-      - Cryptography:
-          - "Differences between Hashing Encoding and Encryption": tech briefs/cryptography/diff-hash-encod-encry.md
-          - "The P=NP Problem": tech briefs/cryptography/p-np.md
-      - Website:
-          - "HTTP Security Headers": tech briefs/website/sec_headers.md        
-          - "Javascript Differences var/let/const": tech briefs/website/javascript-var-let-const.md 
-      - CTI:
-          - "What is YARA & What Does It Detect?": tech briefs/CTI/yara-rules.md        
-  - SOC:
-      - "Links": soc/links.md
-      - "Templates": soc/templates.md
-  - Windows:
-      - "Activate Windows/Office": windows/windows-activation.md
-  - Games:
-      - "Cracked Games": games/cracked-games.md
-  - AboutMe: aboutme.md
+    -📚 Tech Briefs:
+        - Cryptography:
+            - "Differences between Hashing Encoding and Encryption": tech briefs/cryptography/diff-hash-encod-encry.md
+            - "The P=NP Problem": tech briefs/cryptography/p-np.md
+        - Website:
+            - "HTTP Security Headers": tech briefs/website/sec_headers.md        
+            - "Javascript Differences var/let/const": tech briefs/website/javascript-var-let-const.md 
+        - CTI:
+            - "What is YARA & What Does It Detect?": tech briefs/CTI/yara-rules.md        
+    -🖥️ SOC:
+        - "Links": soc/links.md
+        - "Templates": soc/templates.md
+    -💩 Windows:
+        - "Activate Windows/Office": windows/windows-activation.md
+    -🎮 Games:
+        - "Cracked Games": games/cracked-games.md
+    -👤 AboutMe: aboutme.md
 
 plugins:
   - search
