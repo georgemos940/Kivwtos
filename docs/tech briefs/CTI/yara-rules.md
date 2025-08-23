@@ -39,8 +39,8 @@ Have you heard(?):
 # Basic Requirements
 
 - **Every YARA command needs:**
-		1. The rule file you create
-		2. The target(file, directory or PID)
+	1. The rule file you create
+	2. The target(file, directory or PID)
 		
 - Every Rule must have
 	- A name
@@ -53,10 +53,10 @@ Have you heard(?):
 touch somefile
 ```
 2. Create a rule file:
- ```python
+```python
 touch myfirstrule.yar  
-   ```
-3. Edit ``myfirstrule.yar`` and add:
+```
+2. Edit ``myfirstrule.yar`` and add:
 ```python 
 rule examplerule {
 	condition: true
