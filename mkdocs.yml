@@ -52,6 +52,8 @@ nav:
       - Website:
           - "HTTP Security Headers": tech briefs/website/sec_headers.md        
           - "Javascript Differences var/let/const": tech briefs/website/javascript-var-let-const.md 
+      - CTI:
+          - "What is YARA & What Does It Detect?": tech briefs/CTI/yara-rules.md        
   - SOC:
       - "Links": soc/links.md
       - "Templates": soc/templates.md
