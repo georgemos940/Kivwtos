@@ -7,7 +7,7 @@ Bruh if you haven't used github again then download the latest release from here
 ![Hashing Example](../../assets/img17.png)
 ---
 
-## 🖥 Ad-Free Spotify (Desktop)
+# Ad-Free Spotify (Desktop)
 
 If you want to remove ads on your PC (Windows), check out these tools:
 
