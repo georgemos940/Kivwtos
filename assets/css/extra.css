@@ -1,0 +1,30 @@
+/* -------------Images Design --------------- */
+
+.md-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin top/bottom clear some space from text*/
+  margin-top: 2rem;  
+  margin-bottom: 2rem;
+  /* all pictures same size*/
+  max-width: 900px;  
+  width: 100%;       
+  height: auto;      
+  /*just some design */
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;                         
+  padding: 6px;                                
+  background-color: rgba(255, 255, 255, 0.05); 
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.md-content img:hover {
+  transform: scale(1.02);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.35),
+    0 4px 12px rgba(0, 0, 0, 0.25);
+}
