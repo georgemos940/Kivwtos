@@ -58,7 +58,8 @@ nav:
       - "Links": soc/links.md
       - "Templates": soc/templates.md
   - 💩 Windows:
-      - "Activate Windows/Office": windows/windows-activation.md
+      - "Activate Windows/Office": windows/windows-activation.md\
+      - "Free Spotify": windows/free-spotify.md
   - 🎮 Games:
       - "Cracked Games": games/cracked-games.md
   - 👤 AboutMe: aboutme.md
