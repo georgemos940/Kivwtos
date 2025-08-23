@@ -74,13 +74,14 @@
 
 # Email Checker
 
-| Name         | Description                                             | Link                                                                 |
-| ------------ | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| SpamHaus     | Checks if an email domain or IP is listed for spamming  | [Visit](https://check.spamhaus.org)                                  |
-| Apivoid      | Email reputation, blacklist and security checks         | [Visit](https://www.apivoid.com/tools/email-reputation-check)        |
-| Talos        | Cisco Talos email reputation and domain intelligence    | [Visit](https://talosintelligence.com/reputation_center/email_rep)   |
-| Mailmeteor   | Free tool to analyze and check email domain reputation  | [Visit](https://mailmeteor.com/tools/email-reputation)               |
-| Phishtool   | Nice tool to upload and investigate emails  | [Visit](https://app.phishtool.com)               |
+| Name       | Description                                            | Link                                                               |
+| ---------- | ------------------------------------------------------ | ------------------------------------------------------------------ |
+| SpamHaus   | Checks if an email domain or IP is listed for spamming | [Visit](https://check.spamhaus.org)                                |
+| Apivoid    | Email reputation, blacklist and security checks        | [Visit](https://www.apivoid.com/tools/email-reputation-check)      |
+| Talos      | Cisco Talos email reputation and domain intelligence   | [Visit](https://talosintelligence.com/reputation_center/email_rep) |
+| Mailmeteor | Free tool to analyze and check email domain reputation | [Visit](https://mailmeteor.com/tools/email-reputation)             |
+| Phishtool  | Nice tool to upload and investigate emails             | [Visit](https://app.phishtool.com)                                 |
+
 ---
 
 # Number Reputation Checker

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech briefs/CTI/yara-rules.md",
+                "file": "soc/links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yara-rules"
+              "title": "links"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "e0da21a3c3e87d8e",
   "lastOpenFiles": [
-    "Untitled.md",
     "tech briefs/CTI/yara-rules.md",
+    "Untitled.md",
     "tech briefs/cryptography/p-np.md",
     "assets/img11.png",
     "tech briefs/cryptography/diff-hash-encod-encry.md",

@@ -34,7 +34,6 @@ Have you heard(?):
 	-  Botnet:
 		``12.34.56.8``
 		*IP address of the Command & Control (C2) Server*
-- 
 ---
 
 # Basic Requirements
@@ -46,7 +45,6 @@ Have you heard(?):
 - Every Rule must have
 	- A name
 	- A condition
-- 
 ---
 # Example: First Rule
 
