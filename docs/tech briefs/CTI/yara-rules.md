@@ -27,6 +27,7 @@ Have you heard(?):
 
 - Strings are simple sequences of characters used to store text in applications
 - Example
+
 	 ```python
 	 print("Hello World!)
 	 ```
@@ -39,6 +40,7 @@ Have you heard(?):
 	-  Botnet:
 		``12.34.56.8``
 		*IP address of the Command & Control (C2) Server*
+
 ---
 
 # Basic Requirements
@@ -46,10 +48,11 @@ Have you heard(?):
 - **Every YARA command needs:**
 	1. The rule file you create
 	2. The target(file, directory or PID)
-		
+
 - Every Rule must have
 	- A name
 	- A condition
+
 ---
 # Example: First Rule
 
@@ -76,8 +79,10 @@ rule examplerule {
 ```python
 yara myfirstrule.yar somefile
 ```
+
 - If somefile exists:
 	Output -> ``example rule somefile``
+
 - If it does not exist:
 	Output -> ``error scanning sometextfile: could not open file``
 
