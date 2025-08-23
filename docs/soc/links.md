@@ -102,6 +102,7 @@
 | --------------- | ----------------------------------- | ----------------------------------------- |
 | VirusTotal      | Multi-engine file and URL scanning  | [Visit](https://www.virustotal.com/)      |
 | Malware Bazaar  | Database with malware investigations| [Visit](https://bazaar.abuse.ch/browse/)      |
+| MalPedia        | A wikipedia for malwares            | [Visit](https://malpedia.caad.fkie.fraunhofer.de)      |
 | Hybrid Analysis | Static and dynamic malware analysis | [Visit](https://www.hybrid-analysis.com/) |
 | Intezer Analyze | Code genome malware analysis        | [Visit](https://analyze.intezer.com/)     |
 | Any.Run         | Interactive malware sandbox         | [Visit](https://any.run/)                 |
