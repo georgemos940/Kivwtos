@@ -148,5 +148,5 @@ IDS and IPS solutions typically use **three main approaches**:
 ---
 <iframe
   style="width:100%; height:100vh; border:0;"
-  src="/pdfjs/web/viewer.html?file=/snort.pdf#zoom=page-width">
+  src="/pdfjs/web/viewer.html?file=../../assets/snort.pdf#zoom=page-width">
 </iframe>
