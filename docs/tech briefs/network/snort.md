@@ -146,7 +146,12 @@ IDS and IPS solutions typically use **three main approaches**:
    Detects and blocks packets classified as malicious based on user-defined rules.
 
 ---
-<iframe
-  style="width:100%; height:100vh; border:0;"
-  src="../../assets/snort.pdf#zoom=page-width">
-</iframe>
+# Manual PDF (Snort from tryhackme)
+
+<object data="assets/snort.pdf#zoom=page-width"
+        type="application/pdf"
+        width="100%"
+        height="90vh"
+        style="border:none;">
+       <a href="assets/snort.pdf" download>📥 Download the PDF here</a>.
+</object>
