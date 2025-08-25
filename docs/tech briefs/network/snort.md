@@ -153,5 +153,5 @@ IDS and IPS solutions typically use **three main approaches**:
         width="100%"
         height="90vh"
         style="border:none;">
-       <a href="assets/snort.pdf" download>📥 Download the PDF here</a>.
+       <a href="../../assets/snort.pdf" download>📥 Download the PDF here</a>.
 </object>
