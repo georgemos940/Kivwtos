@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows/windows-activation.md",
+                "file": "tech briefs/network/snort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows-activation"
+              "title": "snort"
             }
           }
         ]
@@ -172,9 +172,12 @@
   "active": "e0da21a3c3e87d8e",
   "lastOpenFiles": [
     "windows/free-spotify.md",
+    "assets/img18.png",
+    "tech briefs/network/snort.md",
+    "windows/windows-activation.md",
+    "tech briefs/network",
     "aboutme.md",
     "index.md",
-    "windows/windows-activation.md",
     "assets/img17.png",
     "assets/img16.png",
     "assets/img15.png",
@@ -198,7 +201,6 @@
     "tech briefs/website/javascript-var-let-const.md",
     "tech briefs/website/sec_headers.md",
     "image1-1024x533.png",
-    "assets/img10.png",
     "tech briefs/website",
     "tech briefs/website/sec_header.md",
     "theory/read1.md",
