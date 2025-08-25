@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "tech briefs/network/snort.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -171,8 +171,8 @@
   },
   "active": "e0da21a3c3e87d8e",
   "lastOpenFiles": [
-    "assets/snort.pdf",
     "tech briefs/network/snort.pdf",
+    "assets/snort.pdf",
     "tech briefs/network/snort.md",
     "windows/free-spotify.md",
     "assets/img18.png",
