@@ -54,6 +54,8 @@ nav:
           - "Javascript Differences var/let/const": tech briefs/website/javascript-var-let-const.md 
       - CTI:
           - "What is YARA & What Does It Detect?": tech briefs/CTI/yara-rules.md        
+      - Network:
+          - "Snort - Open Source Intrusion Prevention System (IPS)": tech briefs/network/snort.md     
   - 🖥️ SOC:
       - "Links": soc/links.md
       - "Templates": soc/templates.md
