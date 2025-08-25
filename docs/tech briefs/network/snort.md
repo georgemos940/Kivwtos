@@ -146,6 +146,203 @@ IDS and IPS solutions typically use **three main approaches**:
    Detects and blocks packets classified as malicious based on user-defined rules.
 
 ---
+
+# Snort: First Interaction and Modes
+
+This guide explains how to verify Snort installation, test configurations, and run Snort in different modes: **Sniffer**, **Logger**, **IDS/IPS**, and **PCAP**. Everything is inside a single code block for easy copy-paste.
+
+---
+
+# 0) Verify Installation & Config Test
+
+# Show Snort version
+``snort -V``
+
+# Test the configuration file
+``sudo snort -T -c /etc/snort/snort.conf``
+
+# Quiet mode (hide banner)
+``snort -q``
+
+# Core Parameters
+| Parameter | Description                        |
+| --------- | --------------------------------- |
+| -V        | Show Snort version               |
+| -c        | Use configuration file           |
+| -T        | Test configuration and exit      |
+| -q        | Quiet mode: hide banner & info   |
+
+---
+
+# 1) Sniffer Mode (like tcpdump)
+
+Snort can display packet info on the fly.
+
+### Parameters
+| Parameter | Description                          |
+| --------- | ----------------------------------- |
+| -v        | Verbose: TCP/IP headers            |
+| -d        | Show packet data (payload)         |
+| -e        | Show link-layer headers            |
+| -X        | Full packet in HEX + ASCII         |
+| -i <if>   | Interface to listen on (e.g., eth0)|
+
+# Examples
+# Verbose on eth0
+``sudo snort -v -i eth0``
+
+# Verbose + payload
+``sudo snort -vd``
+
+# Verbose + payload + link-layer
+``sudo snort -vde``
+
+# Full packet dump
+``sudo snort -X``
+
+---
+
+# 2) Logger Mode (save traffic)
+
+Snort can log packets for later analysis.
+
+# Parameters
+| Parameter | Description                                        |
+| --------- | -------------------------------------------------- |
+| -l DIR    | Log directory (default: /var/log/snort)           |
+| -K ASCII  | Log packets in ASCII format                       |
+| -r FILE   | Read binary log file                              |
+| -n NUM    | Limit number of packets processed                 |
+
+# Examples
+# Log in current directory
+``sudo snort -dev -l .``
+
+# Log in ASCII format
+``sudo snort -dev -K ASCII -l .``
+
+# Read a log file
+``sudo snort -r snort.log -X``
+
+# Read log with BPF filter
+``sudo snort -r snort.log icmp``
+``sudo snort -r snort.log tcp``
+``sudo snort -r snort.log 'udp and port 53'``
+
+# Read only 10 packets
+sudo snort -dvr snort.log -n 10
+
+# Ownership Note
+Logs created as root → need sudo or change ownership:
+``sudo chown $USER:$USER snort.log``
+
+---
+
+# 3) IDS/IPS Mode (rule-based detection)
+
+Run Snort with rules from your config.
+
+# Parameters
+| Parameter | Description                                    |
+| --------- | --------------------------------------------- |
+| -c FILE   | Config file (required)                       |
+| -T        | Test configuration                            |
+| -N        | Disable logging                               |
+| -D        | Daemon mode                                   |
+| -A MODE   | Alert mode: console, cmg, fast, full, none   |
+
+# Alert Modes
+| Mode    | Description                                     |
+| ------- | ---------------------------------------------- |
+| console | Fast-style alerts in console                   |
+| cmg     | Header + payload (hex/text) in console         |
+| fast    | Minimal alert in log only                      |
+| full    | Detailed alert in log only                     |
+| none    | Disable alerts (still logs traffic)            |
+
+# Examples
+# Test config
+``sudo snort -c /etc/snort/snort.conf -T``
+
+# Run with console alerts
+``sudo snort -c /etc/snort/snort.conf -A console``
+
+# Run with cmg alerts
+``sudo snort -c /etc/snort/snort.conf -A cmg``
+
+# Disable logging
+``sudo snort -c /etc/snort/snort.conf -N``
+
+# Background mode
+``sudo snort -c /etc/snort/snort.conf -D``
+
+---
+
+# 4) PCAP Mode (offline analysis)
+
+Analyze pcap files for alerts and stats.
+
+# Parameters
+| Parameter             | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| -r FILE               | Read a single pcap                             |
+| --pcap-list="a b c"   | Process multiple pcaps                         |
+| --pcap-show           | Show pcap name while processing                |
+
+# Examples
+# Basic read
+``snort -r sample.pcap``
+
+# Read with config and alerts
+``sudo snort -c /etc/snort/snort.conf -q -r icmp.pcap -A console -n 10``
+
+# Multiple pcaps
+``sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console``
+
+# Show pcap names
+``sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console --pcap-show``
+
+---
+
+# 5) Rule Basics
+
+``Snort rules = **action + protocol + src/dst IP + ports + direction + options**.``
+
+# Common Actions
+| Action  | Description                                       |
+| ------- | ------------------------------------------------- |
+| alert   | Generate alert and log packet                    |
+| log     | Log packet only                                  |
+| drop    | Drop packet + log (IPS mode required)            |
+| reject  | Drop + log + send TCP RST/ICMP unreachable       |
+
+# Direction
+| Symbol | Meaning                      |
+| ------ | --------------------------- |
+| ->     | Source → Destination        |
+| <>     | Bidirectional               |
+
+# Examples
+# Simple ICMP alert
+``alert icmp any any <> any any (msg:"ICMP Packet Found"; sid:100001; rev:1;)``
+
+# IP range
+``alert icmp 192.168.1.0/24 any <> any any (msg:"ICMP from subnet"; sid:100002; rev:1;)``
+
+# Port filter
+``alert tcp any any -> any 21 (msg:"FTP traffic"; sid:100003; rev:1;)``
+
+# Negation
+``alert tcp any any -> any !21 (msg:"Non-FTP traffic"; sid:100004; rev:1;)``
+
+---
+
+**TIP:** Add your rules to `/etc/snort/rules/local.rules`.
+
+
+
+
+
 # Manual PDF (Snort from tryhackme)
 
 
