@@ -148,10 +148,7 @@ IDS and IPS solutions typically use **three main approaches**:
 ---
 # Manual PDF (Snort from tryhackme)
 
-<object data="assets/snort.pdf#zoom=page-width"
-        type="application/pdf"
-        width="100%"
-        height="90vh"
-        style="border:none;">
-       <a href="./snort.pdf" download>📥 Download the PDF here</a>.
-</object>
+
+![Hashing Example](../../assets/img19.png)
+
+![Hashing Example](../../assets/img20.png)
