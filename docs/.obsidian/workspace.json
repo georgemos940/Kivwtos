@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9fac1d99c9119814",
+        "id": "34ef33f2a4ebc56a",
         "type": "tabs",
         "children": [
           {
-            "id": "e0da21a3c3e87d8e",
+            "id": "2de253ca5a9b5a3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech briefs/network/snort.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "snort"
+              "title": "New tab"
             }
           }
         ]
@@ -169,48 +165,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0da21a3c3e87d8e",
+  "active": "337ae19244db90c4",
   "lastOpenFiles": [
+    "Untitled 7.base",
+    "Untitled 6.base",
+    "Untitled 4.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Untitled 2.base",
+    "tech briefs/network/snort.md",
+    "assets/img25.png",
+    "assets/img24.png",
+    "tech briefs/CTI/yara-rules.md",
+    "Untitled 5.base",
+    "Untitled 3.base",
+    "assets/img27.png",
+    "assets/img23.png",
+    "assets/img26.png",
+    "windows/windows-activation.md",
+    "assets/img22.png",
+    "Pasted image 20250826210309.png",
+    "assets/img21.png",
     "soc/links.md",
     "soc/templates.md",
-    "tech briefs/network/snort.md",
     "assets/img20.png",
     "assets/img19.png",
     "tech briefs/network/snort.pdf",
     "assets/snort.pdf",
     "windows/free-spotify.md",
-    "assets/img18.png",
-    "windows/windows-activation.md",
-    "tech briefs/network",
     "aboutme.md",
     "index.md",
-    "assets/img17.png",
-    "assets/img16.png",
-    "assets/img15.png",
-    "tech briefs/CTI/yara-rules.md",
-    "assets/img14.png",
-    "assets/img13.png",
     "tech briefs/cryptography/p-np.md",
-    "Pasted image 20250823144539.png",
-    "assets/img12.png",
     "Untitled.md",
     "tech briefs/cryptography/diff-hash-encod-encry.md",
-    "tech briefs/CTI",
     "games/cracked-games.md",
     "games/links.md",
-    "games",
-    "ganes",
     "windows/javascript-var-let-const.md",
     "tech briefs/website/javascript-var-let-const.md",
     "tech briefs/website/sec_headers.md",
-    "tech briefs/website",
     "tech briefs/website/sec_header.md",
     "theory/read1.md",
     "tech briefs/read1.md",
-    "tech briefs",
     "Theory/read1.md",
-    "theory",
-    "Theory",
     "niaou.md"
   ]
 }

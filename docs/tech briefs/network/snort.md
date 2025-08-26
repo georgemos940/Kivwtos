@@ -156,13 +156,19 @@ This guide explains how to verify Snort installation, test configurations, and r
 # 0) Verify Installation & Config Test
 
 # Show Snort version
-``snort -V``
+```python
+snort -V
+```
 
 # Test the configuration file
-``sudo snort -T -c /etc/snort/snort.conf``
+```python
+sudo snort -T -c /etc/snort/snort.conf
+```
 
 # Quiet mode (hide banner)
-``snort -q``
+```python
+snort -q
+```
 
 # Core Parameters
 | Parameter | Description                        |
@@ -189,16 +195,24 @@ Snort can display packet info on the fly.
 
 # Examples
 # Verbose on eth0
-``sudo snort -v -i eth0``
+```python
+sudo snort -v -i eth0
+```
 
 # Verbose + payload
-``sudo snort -vd``
+```python
+sudo snort -vd
+```
 
 # Verbose + payload + link-layer
-``sudo snort -vde``
+```python
+sudo snort -vde
+```
 
 # Full packet dump
-``sudo snort -X``
+```python
+sudo snort -X
+```
 
 ---
 
@@ -216,25 +230,37 @@ Snort can log packets for later analysis.
 
 # Examples
 # Log in current directory
-``sudo snort -dev -l .``
+```python
+sudo snort -dev -l .
+```
 
 # Log in ASCII format
-``sudo snort -dev -K ASCII -l .``
+```python
+sudo snort -dev -K ASCII -l .
+```
 
 # Read a log file
-``sudo snort -r snort.log -X``
+```python
+sudo snort -r snort.log -X
+```
 
 # Read log with BPF filter
-``sudo snort -r snort.log icmp``
-``sudo snort -r snort.log tcp``
-``sudo snort -r snort.log 'udp and port 53'``
+```python
+sudo snort -r snort.log icmp
+sudo snort -r snort.log tcp
+sudo snort -r snort.log 'udp and port 53'
+```
 
 # Read only 10 packets
+```python
 sudo snort -dvr snort.log -n 10
+```
 
 # Ownership Note
 Logs created as root → need sudo or change ownership:
-``sudo chown $USER:$USER snort.log``
+```python
+sudo chown $USER:$USER snort.log
+```
 
 ---
 
@@ -262,19 +288,29 @@ Run Snort with rules from your config.
 
 # Examples
 # Test config
-``sudo snort -c /etc/snort/snort.conf -T``
+```python
+sudo snort -c /etc/snort/snort.conf -T
+```
 
 # Run with console alerts
-``sudo snort -c /etc/snort/snort.conf -A console``
+```python
+sudo snort -c /etc/snort/snort.conf -A console
+```
 
 # Run with cmg alerts
-``sudo snort -c /etc/snort/snort.conf -A cmg``
+```python
+sudo snort -c /etc/snort/snort.conf -A cmg
+```
 
 # Disable logging
-``sudo snort -c /etc/snort/snort.conf -N``
+```python
+sudo snort -c /etc/snort/snort.conf -N
+```
 
 # Background mode
-``sudo snort -c /etc/snort/snort.conf -D``
+```python 
+sudo snort -c /etc/snort/snort.conf -D
+```
 
 ---
 
@@ -291,22 +327,32 @@ Analyze pcap files for alerts and stats.
 
 # Examples
 # Basic read
-``snort -r sample.pcap``
+```python
+python snort -r sample.pcap
+```
 
 # Read with config and alerts
-``sudo snort -c /etc/snort/snort.conf -q -r icmp.pcap -A console -n 10``
+```python
+sudo snort -c /etc/snort/snort.conf -q -r icmp.pcap -A console -n 10
+```
 
 # Multiple pcaps
-``sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console``
+```python 
+sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console
+```
 
 # Show pcap names
-``sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console --pcap-show``
+```python
+sudo snort -c /etc/snort/snort.conf --pcap-list="icmp.pcap http.pcap" -A console --pcap-show
+```
 
 ---
 
 # 5) Rule Basics
 
-``Snort rules = **action + protocol + src/dst IP + ports + direction + options**.``
+```python
+Snort rules = **action + protocol + src/dst IP + ports + direction + options**.
+```
 
 # Common Actions
 | Action  | Description                                       |
@@ -324,28 +370,152 @@ Analyze pcap files for alerts and stats.
 
 # Examples
 # Simple ICMP alert
-``alert icmp any any <> any any (msg:"ICMP Packet Found"; sid:100001; rev:1;)``
+```python
+alert icmp any any <> any any (msg:"ICMP Packet Found"; sid:100001; rev:1;)
+```
 
 # IP range
-``alert icmp 192.168.1.0/24 any <> any any (msg:"ICMP from subnet"; sid:100002; rev:1;)``
+```python
+alert icmp 192.168.1.0/24 any <> any any (msg:"ICMP from subnet"; sid:100002; rev:1;)
+```
 
 # Port filter
-``alert tcp any any -> any 21 (msg:"FTP traffic"; sid:100003; rev:1;)``
+```python
+alert tcp any any -> any 21 (msg:"FTP traffic"; sid:100003; rev:1;)
+```
 
 # Negation
-``alert tcp any any -> any !21 (msg:"Non-FTP traffic"; sid:100004; rev:1;)``
+```python
+alert tcp any any -> any !21 (msg:"Non-FTP traffic"; sid:100004; rev:1;)
+```
 
----
 
 **TIP:** Add your rules to `/etc/snort/rules/local.rules`.
 
+# Examples rules that i create for ctf room
+
+Write a rule to detect all TCP packets **from or to** port 80.
+```python
+alert tcp any 80 <> any any (msg:”TCP port 80 found”; sid:100001; rev:1;)
+```
+ 
+ Write a **single** rule to detect "**all TCP port 21**"  traffic in the given pcap.
+```python
+alert tcp any 21 <> any any (msg:"src:FTP found"; sid:100001; rev:1;)
+```
+
+What is the FTP service name?
+```python
+sudo snort -r snort.log.1671731339 -X -n 10 // read 10 packets 
+```
 
 
+Write a rule to detect failed FTP login attempts in the given pcap.
+```python
+alert tcp any 21 <> any any (msg:"Detectected Failed FTP Login"; content:"530 User"; sid:100003; rev:1;)
+```
+[List of ftp responding codes here ->](https://en.wikipedia.org/wiki/List_of_FTP_server_return_codes)
+![Hashing Example](../../assets/img21.png)
+
+Write a rule to detect successful FTP logins in the given pcap.
+```python
+alert tcp any 21 <> any any (msg:"Detected Successful FTP Login"; content:"230 User"; sid:100004;
+```
+
+Write a rule to detect FTP login attempts with a valid username but no password entered yet.
+```python
+alert tcp any 21 <> any any (msg:"FTP Failed Login-Bad or No Password"; content:"331 Password"; sid:100005; rev:1;)
+```
+
+Write a rule to detect FTP login attempts with the "Administrator" username but no password entered yet.
+```python
+alert tcp any 21 <> any any (msg:"FTP Failed Admin Login-Bad or No Password"; content:"331 Password"; fast_pattern; content:"Administrator"; sid:100006; rev:1;)
+```
+
+Write a rule to detect the PNG file in the given pcap.
+```python
+alert tcp any any <> any any (msg:"PNG file Detected"; content:"|89 50 4A 47 0D 0A 1A 0A|"; sid:100002; rev:1;)
+```
+*the || is to show a number in hex format.. every file type has a hex signature in the start of it!*
+
+Write a rule to detect the GIF file in the given pcap.
+```python
+alert tcp any any <> any any (msg:"GIF File Detected"; content:"|47 49 46 38 39|"; sid:100003; rev:1;)
+```
+![Hashing Example](../../assets/img22.png)
+
+*lets create IDS Rules for torrent metafiles in the traffic!*
+
+Write a rule to detect the torrent metafile in the given pcap.
+```python
+alert tcp any any <> any any (msg: "Torrent"; content:"torrent"; sid: 10000001; rev:1;)
+```
+
+Write a rule to detect packet payloads **between 770 and 855 bytes**.
+```python
+alert tcp any any -> any any (msg:"Tcp connections"; dsize:770<>855;  sid: 100001; rev:1;)
+```
+
+
+---
+# wrong syntax rules
+
+ -  1 syntax error
+```python
+alert tcp any 3372 -> any any(msg: "Troubleshooting 1"; sid:1000001; rev:1;)
+```
+ [Syntax] Missing required space before options block: should be "... any any (msg: ...)"
+
+ - 1 syntax error 
+```python
+alert icmp any -> any any (msg: "Troubleshooting 2"; sid:1000001; rev:1;)
+```
+ [Syntax] ICMP rules do not use ports; remove the trailing destination port "any".
+
+ - 1 syntax error
+```python
+alert icmp any any -> any any (msg: "ICMP Packet Found"; sid:1000001; rev:1;)
+alert tcp any any -> any 80,443 (msg: "HTTPX Packet Found"; sid:1000001; rev:1;)
+```
+ [Syntax] ICMP rule incorrectly includes ports ("any any"); ICMP has no ports.
+
+ -  2 syntax errors 
+```python
+alert icmp any any -> any any (msg: "ICMP Packet Found"; sid:1000001; rev:1;)
+alert tcp any 80,443 -> any any (msg: "HTTPX Packet Found": sid:1000001; rev:1;)
+```
+ [Syntax 1] ICMP rule includes ports; ICMP has no ports.
+ [Syntax 2] Extra colon after msg string: use ... msg:"HTTPX Packet Found"; sid:...
+
+- 2 syntax errors 
+```python
+alert icmp any any <> any any (msg: "ICMP Packet Found"; sid:1000001; rev:1;)
+alert icmp any any <- any any (msg: "Inbound ICMP Packet Found"; sid;1000002; rev:1;)
+```
+alert tcp any any -> any 80,443 (msg: "HTTPX Packet Found": sid:1000003; rev:1;)
+ [Syntax 1] Invalid direction operator "<-"; valid are "->" or "<>".
+ [Syntax 2] Wrong separator in option: "sid;1000002" must be "sid:1000002".
+
+ - logic error (case sensitive; add `nocase;`) 
+```python
+alert tcp any any <> any 80  (msg: "GET Request Found"; content:"|67 65 74|"; sid: 100001; rev:1;)
+```
+[Logic] Content bytes 67 65 74 = "get" (lowercase). HTTP methods are typically uppercase. Add "nocase;" (or match ASCII "GET ") to avoid missing true positives.
+
+
+ -  logic error (no msg; rule runs but not useful) 
+```python
+alert tcp any any <> any 80  (content:"|2E 68 74 6D 6C|"; sid: 100001; rev:1;)
+```
+ [Logic] Missing "msg" option; alerts will have empty/unnamed message, reducing usefulness.
 
 
 # Manual PDF (Snort from tryhackme)
-
-
+![Hashing Example](../../assets/img23.png)
+![Hashing Example](../../assets/img24.png)
+![Hashing Example](../../assets/img25.png)
+![Hashing Example](../../assets/img26.png)
+![Hashing Example](../../assets/img27.png)
 ![Hashing Example](../../assets/img19.png)
 
 ![Hashing Example](../../assets/img20.png)
