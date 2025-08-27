@@ -99,15 +99,16 @@
 
 # Malware Analysis
 
-| Name            | Description                         | Link                                      |
-| --------------- | ----------------------------------- | ----------------------------------------- |
-| VirusTotal      | Multi-engine file and URL scanning  | [Visit](https://www.virustotal.com/)      |
-| Malware Bazaar  | Database with malware investigations| [Visit](https://bazaar.abuse.ch/browse/)      |
-| MalPedia        | A wikipedia for malwares            | [Visit](https://malpedia.caad.fkie.fraunhofer.de)      |
-| Hybrid Analysis | Static and dynamic malware analysis | [Visit](https://www.hybrid-analysis.com/) |
-| Intezer Analyze | Code genome malware analysis        | [Visit](https://analyze.intezer.com/)     |
-| Any.Run         | Interactive malware sandbox         | [Visit](https://any.run/)                 |
-| file.net        | Containes all windows applications  | [Visit](https://www.file.net/process)     |
+| Name            | Description                          | Link                                              |
+| --------------- | ------------------------------------ | ------------------------------------------------- |
+| VirusTotal      | Multi-engine file and URL scanning   | [Visit](https://www.virustotal.com/)              |
+| Malware Bazaar  | Database with malware investigations | [Visit](https://bazaar.abuse.ch/browse/)          |
+| MalPedia        | A wikipedia for malwares             | [Visit](https://malpedia.caad.fkie.fraunhofer.de) |
+| Hybrid Analysis | Static and dynamic malware analysis  | [Visit](https://www.hybrid-analysis.com/)         |
+| Intezer Analyze | Code genome malware analysis         | [Visit](https://analyze.intezer.com/)             |
+| Any.Run         | Interactive malware sandbox          | [Visit](https://any.run/)                         |
+| file.net        | Containes all windows applications   | [Visit](https://www.file.net/process)             |
+| Joe             | Malware sundbox analysis tool        | [Visit](https://www.joesandbox.com/#windows)      |
 
 
 # All-in-One Decode/Hash/Stego Tools
