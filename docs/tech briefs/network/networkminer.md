@@ -31,8 +31,8 @@ A practical workflow might look like this. First, capture traffic with a proper 
 **There are free and professional editions;** the free edition is sufficient for most triage and teaching scenarios, while the professional edition adds convenience and advanced features for larger or repeated workflows. Regardless of edition, the strategic value remains the same: use NetworkMiner to quickly surface what matters, then bring heavyweight analyzers to bear where depth and precision are required.
 
 
-a nice video from  Motasem Hamdan and tryhackme explain some things about network miner
+a nice video from Hank Hackerson and tryhackme explain some things about network miner
 > truth is network miner is a bit old/unfamous however understanding NetworkMiner helps you quickly extract hosts, sessions, files, and indicators from network captures, which is essential for rapid triage and incident response in any SOC environment. (my opinion....)
 <div style="text-align:center;">
-  <iframe width="1000" height="563" src="https://www.youtube.com/embed/U9oG9IlvywA" title="Network Forensics with Network Miner | TryHackMe SOC Level 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="1000" height="563" src="https://www.youtube.com/embed/e58Wgkkb0G0" title="Network Forensics with Network Miner | TryHackMe SOC Level 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
