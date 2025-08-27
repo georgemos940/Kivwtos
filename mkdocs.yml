@@ -56,6 +56,7 @@ nav:
           - "What is YARA & What Does It Detect?": tech briefs/CTI/yara-rules.md        
       - Network:
           - "Snort - Open Source Intrusion Prevention System (IPS)": tech briefs/network/snort.md     
+          - "NetworkMiner - an open-source traffic sniffer, PCAP handler and protocol analyser. ": tech briefs/network/networkminer.md     
   - 🖥️ SOC:
       - "Links": soc/links.md
       - "Templates": soc/templates.md
