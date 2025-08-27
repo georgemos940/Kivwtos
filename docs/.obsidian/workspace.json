@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech briefs/CTI/yara-rules.md",
+                "file": "tech briefs/network/networkminer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yara-rules"
+              "title": "networkminer"
             }
           }
         ],
@@ -186,10 +186,10 @@
   },
   "active": "f346128f88047c31",
   "lastOpenFiles": [
+    "tech briefs/CTI/yara-rules.md",
     "tech briefs/network/netminer.md",
     "tech briefs/network/networkminer.md",
     "assets/img29.png",
-    "tech briefs/CTI/yara-rules.md",
     "soc/links.md",
     "tech briefs/network/snort.md",
     "assets/img28.png",

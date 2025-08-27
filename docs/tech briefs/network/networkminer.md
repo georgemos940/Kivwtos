@@ -1,6 +1,6 @@
 
 # NetworkMiner is an open-source traffic sniffer, PCAP handler and protocol analyser. Developed and still maintained by Netresec.
-# NetworkMiner: fast, passive network forensics without touching the wire
+
 
 NetworkMiner is a Network Forensic Analysis Tool (NFAT) designed for passive traffic analysis. It runs natively on Windows and also works on Linux, macOS, and FreeBSD. Rather than injecting packets or altering traffic, it listens or parses captures to reconstruct a clear picture of who talked to whom, over which protocols and ports, and what data changed hands. This makes it well suited for incident response scenarios where you want visibility without operational risk.
 
