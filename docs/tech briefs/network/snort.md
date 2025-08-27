@@ -287,6 +287,7 @@ Run Snort with rules from your config.
 | none    | Disable alerts (still logs traffic)            |
 
 # Examples
+
 # Test config
 ```python
 sudo snort -c /etc/snort/snort.conf -T
@@ -297,11 +298,29 @@ sudo snort -c /etc/snort/snort.conf -T
 sudo snort -c /etc/snort/snort.conf -A console
 ```
 
-# Run with cmg alerts
+# IDS/IPS mode with parameter "-A cmg"
+Cmg mode provides basic header details with payload in hex and text format.
 ```python
 sudo snort -c /etc/snort/snort.conf -A cmg
 ```
 
+# IDS/IPS mode with parameter "-A fast"
+Fast mode provides alert messages, timestamps, and source and destination IP addresses. **Remember, there is no console output in this mode.**
+```python
+sudo snort -c /etc/snort/snort.conf -A fast
+```
+
+#  IDS/IPS mode with parameter "-A full"
+Full alert mode provides all possible information about the alert. **Remember, there is no console output in this mode.**
+```python
+sudo snort -c /etc/snort/snort.conf -A full
+```
+
+# IDS/IPS mode with parameter "-A none"
+Disable alerting. This mode doesn't create the alert file. However, it still logs the traffic and creates a log file in binary dump format. Remember, there is no console output in this mode.
+```python
+sudo snort -c /etc/snort/snort.conf -A none
+```
 # Disable logging
 ```python
 sudo snort -c /etc/snort/snort.conf -N
@@ -311,6 +330,15 @@ sudo snort -c /etc/snort/snort.conf -N
 ```python 
 sudo snort -c /etc/snort/snort.conf -D
 ```
+
+# IPS mode and dropping packets
+Snort IPS mode activated with -Q --daq afpacket parameters. You can also activate this mode by editing snort.conf file. However, you don't need to edit snort.conf file in the scope of this room. Review the bonus task or snort manual for further information on daq and advanced configuration settings: `-Q --daq afpacket`
+Activate the Data Acquisition (DAQ) modules and use the afpacket module to use snort as an IPS: `-i eth0:eth1`
+Identifying interfaces note that Snort IPS require at least two interfaces to work. Now run the traffic-generator script as sudo and start ICMP/HTTP traffic.
+```python
+sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A console
+```
+
 
 ---
 
