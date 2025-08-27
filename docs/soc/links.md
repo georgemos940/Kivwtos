@@ -15,6 +15,7 @@
 | IPQualityScore | IP reputation scoring                | [Visit](https://www.ipqualityscore.com)                                                   |
 | RST Cloud      | IP/domain reputation lookup          | [Visit](https://www.rstcloud.com/ioc-lookup-results/?search=156.244.56.89)                |
 | VirusTotal     | IP checker with history and analysis | [Visit](https://www.virustotal.com/gui/home/search)                                       |
+| Tor Relay      | relay operator                       | [Visit](https://metrics.torproject.org/rs.html)                                           |
 
 ---
 

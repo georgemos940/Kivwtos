@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "e5321297df983ff2",
+    "id": "1598f5b0666d8e58",
     "type": "split",
     "children": [
       {
-        "id": "34ef33f2a4ebc56a",
+        "id": "0cf5846becd385fd",
         "type": "tabs",
         "children": [
           {
-            "id": "2de253ca5a9b5a3a",
+            "id": "31c5f2d73d93945c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "soc/links.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "links"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "08b9c045f98044dc",
+    "id": "4e36061a62c7c671",
     "type": "split",
     "children": [
       {
-        "id": "7cf6d9b3932724a8",
+        "id": "405faa7dfb7fdee7",
         "type": "tabs",
         "children": [
           {
-            "id": "337ae19244db90c4",
+            "id": "2d8c39023b3844a5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "9bd0a2131cbce6af",
+            "id": "137a61c81cd6a59a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "7ae55fafb7aa035d",
+            "id": "d21fbd5b02b07c31",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "450118862743ab50",
+    "id": "4391d693c8474f05",
     "type": "split",
     "children": [
       {
-        "id": "8d0d6c5dd2062470",
+        "id": "4726a1330d0edd1b",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9d1728c92562e2",
+            "id": "74065bb3de4e073e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "niaou.md",
+                "file": "soc/links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for niaou"
+              "title": "Backlinks for links"
             }
           },
           {
-            "id": "d46d07734cb85761",
+            "id": "d528142c0c0de8f8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "niaou.md",
+                "file": "soc/links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from niaou"
+              "title": "Outgoing links from links"
             }
           },
           {
-            "id": "a0fa8edbc39d1b99",
+            "id": "fe57bbcbf77c93de",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +137,18 @@
             }
           },
           {
-            "id": "da64f5bcbcb2f240",
+            "id": "d552a553529f1137",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "niaou.md",
+                "file": "soc/links.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of niaou"
+              "title": "Outline of links"
             }
           }
         ]
@@ -156,57 +160,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "337ae19244db90c4",
+  "active": "31c5f2d73d93945c",
   "lastOpenFiles": [
-    "Untitled 7.base",
-    "Untitled 6.base",
-    "Untitled 4.base",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Untitled 2.base",
     "tech briefs/network/snort.md",
-    "assets/img25.png",
-    "assets/img24.png",
-    "tech briefs/CTI/yara-rules.md",
-    "Untitled 5.base",
-    "Untitled 3.base",
-    "assets/img27.png",
-    "assets/img23.png",
-    "assets/img26.png",
-    "windows/windows-activation.md",
-    "assets/img22.png",
-    "Pasted image 20250826210309.png",
-    "assets/img21.png",
-    "soc/links.md",
-    "soc/templates.md",
-    "assets/img20.png",
-    "assets/img19.png",
-    "tech briefs/network/snort.pdf",
-    "assets/snort.pdf",
-    "windows/free-spotify.md",
-    "aboutme.md",
-    "index.md",
-    "tech briefs/cryptography/p-np.md",
-    "Untitled.md",
-    "tech briefs/cryptography/diff-hash-encod-encry.md",
-    "games/cracked-games.md",
-    "games/links.md",
-    "windows/javascript-var-let-const.md",
-    "tech briefs/website/javascript-var-let-const.md",
-    "tech briefs/website/sec_headers.md",
-    "tech briefs/website/sec_header.md",
-    "theory/read1.md",
-    "tech briefs/read1.md",
-    "Theory/read1.md",
-    "niaou.md"
+    "tech briefs/website/sec_headers.md"
   ]
 }
