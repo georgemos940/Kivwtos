@@ -57,6 +57,7 @@ nav:
       - Network:
           - "Snort - Open Source Intrusion Prevention System (IPS)": tech briefs/network/snort.md     
           - "NetworkMiner - an open-source traffic sniffer, PCAP handler and protocol analyser. ": tech briefs/network/networkminer.md     
+          - "Zeek - is a passive traffic analysis framework ": tech briefs/network/zeek.md     
   - 🖥️ SOC:
       - "Links": soc/links.md
       - "Templates": soc/templates.md
