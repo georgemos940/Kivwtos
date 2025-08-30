@@ -342,11 +342,12 @@ zeek -Cr http.pcap zeek-sniffpass
 Check:
 ```
 cat notice.log | zeek-cut id.orig_h id.resp_h proto note msg
+
+ => SNIFFPASS::HTTP_POST_Password_Seen ... Password found for user ...
 ```
-# => SNIFFPASS::HTTP_POST_Password_Seen ... Password found for user ...
 
 Geolocation enrichment (depends on local GeoLite DB):
-# (e.g., geoip-conn)
+ - (e.g., geoip-conn)
 ```
 zeek -Cr case1.pcap geoip-conn
 cat conn.log | zeek-cut uid id.orig_h id.resp_h geo.orig.country_code geo.orig.region geo.orig.city geo.resp.country_code geo.resp.region geo.resp.city
@@ -365,12 +366,12 @@ BIFs/protocols: /opt/zeek/share/zeek/base/bif, /opt/zeek/share/zeek/base/protoco
 Legacy Snort-to-Bro (snort2bro) is no longer supported in modern Zeek distributions; workflows diverged after rebranding.
 
 # End-To-End Investigation Example (Conceptual)
-1) Start broad: conn.log + files.log + intel.log; scan for outliers (rare ports, large transfers, new software).
-2) Pivot by UID to dns/http/ssl/ssh/ftp to extract URLs, JA3/TLS certs, user-agents, credential patterns.
-3) Inspect detection outputs: notice.log, signatures.log for corroborating signals.
-4) Correlate extracted files (files.log, pe.log, x509.log) back to servers and sessions; hash, detonate, or block.
-5) Summarize with known_hosts/services/software to see whether behavior is new or expected baseline.
-6) Refine signatures/scripts or enable frameworks to improve recall/precision; feed indicators back into intel.
+-  Start broad: conn.log + files.log + intel.log; scan for outliers (rare ports, large transfers, new software).
+-  Pivot by UID to dns/http/ssl/ssh/ftp to extract URLs, JA3/TLS certs, user-agents, credential patterns.
+-  Inspect detection outputs: notice.log, signatures.log for corroborating signals.
+-  Correlate extracted files (files.log, pe.log, x509.log) back to servers and sessions; hash, detonate, or block.
+-  Summarize with known_hosts/services/software to see whether behavior is new or expected baseline.
+-  Refine signatures/scripts or enable frameworks to improve recall/precision; feed indicators back into intel.
 
 # Quick Reference – Parameter & Path Table
 | Item             | Value / Example                                    |      |        |
